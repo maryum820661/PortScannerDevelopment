@@ -10,7 +10,7 @@ socket.setdefaulttimeout(2)
 
 host=raw_input("[*] Enter the Host to Scan:")
 port=int(raw_input("[*] Enter the Port to Scan:"))
-#if sock.connect_ex retreives an error then  show that the  specified port is closed
+#if sock.connect_ex retreives an error then  show that the  specified port is closed and will respond close.
 
 
 def portscanner(port):
